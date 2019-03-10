@@ -31,7 +31,7 @@ public:
             l2 = l2 != NULL ? l2->next : l2;
         }
 
-        return result;
+        return result->next;
     }
 
 private:
