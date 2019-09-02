@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.11)
+project(longest_substring_without_repeating_characters)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(longest_substring_without_repeating_characters main.cpp)
